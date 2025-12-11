@@ -46,8 +46,7 @@ Para este projeto, foi criado um volume EBS com as seguintes configurações:
 
 ![Volume](images/2.PNG)
 
-
---- 
+---
 
 ## 🔗 Associação de volume
 
