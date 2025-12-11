@@ -44,7 +44,7 @@ Para este projeto, foi criado um volume EBS com as seguintes configurações:
 - **Zona de disponibilidade:** a mesma utilizada pela instância `Lab`  
 - **Tag:** `Name = My Volume`
 
-![Volume](images/2..PNG)
+![Volume](images/2.PNG)
 
 
 --- 
@@ -54,10 +54,9 @@ Para este projeto, foi criado um volume EBS com as seguintes configurações:
 O volume foi associado à instância utilizando as seguintes definições:
 
 - **Instância:** `Lab`  
-- **Nome do dispositivo:** `/dev/sdf`  
+- **Nome do dispositivo:** `/dev/sdf`
 
 ![Associação](images/3.PNG)
-
 
 ---
 ## 🧰 Criação de volume
@@ -104,7 +103,7 @@ O dispositivo aparece como:
 
 Foi selecionado o volume **My Volume** e, no menu de ações, escolhida a opção **"Criar snapshot"**.
 
-![Criação do snapshot](images/6..png)
+![Criação do snapshot](images/6.png)
 
 ---
 
@@ -135,7 +134,7 @@ Foi realizado a exclusão do arquivo file.txt para simular a restauração do sn
 
 Foi selecionado o snapshot criado **My Volume** e, no menu de ações, escolhida a opção **"Criar volume com snapshot"**.
 
-![Seleção do snapshot](images/10.png)
+![Seleção do snapshot](images/10.PNG)
 
 ---
 
@@ -149,7 +148,7 @@ Durante a criação do novo volume, foi atribuída a seguinte tag:
 
 Após a criação, o snapshot foi selecionado novamente e, no menu de ações, escolhida a opção **"Associar volume"**.
 
-![Associação de volume](images/10.2.png)
+![Associação de volume](images/10.2.PNG)
 
 ---
 
@@ -158,10 +157,9 @@ O volume foi associado à instância **Lab** com as seguintes definições:
 - **Instância:** `Lab`  
 - **Nome do dispositivo:** `/dev/sdg`
 
-![Associação de volume](images/10.3.png)
+![Associação de volume](images/10.3.PNG)
 
-
---- 
+---
 
 ### 💾 Criação de disco restaurado
 
@@ -179,4 +177,4 @@ Foram executados os seguintes comandos para montar o volume restaurado e verific
   `ls /mnt/data-store2`  
   Confirma que o snapshot funcionou e os arquivos foram restaurados corretamente.
 
-![Associação de volume](images/11.png)
+![Associação de volume](images/11.PNG)
