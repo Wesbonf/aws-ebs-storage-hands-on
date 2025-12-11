@@ -98,6 +98,41 @@ O dispositivo aparece como:
 ![Criação de volume](images/5.PNG)
 
 
+---
 
+## 📸 Criação do snapshot
+
+Foi selecionado o volume **My Volume** e, no menu de ações, escolhida a opção **"Criar snapshot"**.
+
+![Criação do snapshot](images/6..png)
+
+---
+
+Em seguida, foi atribuída a seguinte tag ao snapshot:
+
+- **Name:** `my snapshot`
+
+![Criando o snapshot](images/7.PNG)
+
+---
+
+Após a criação, o snapshot foi exibido como confirmado no console:
+
+![Snapshot criado](images/8.PNG)
+
+---
+
+### Cenário de teste
+
+Foi realizado a exclusão do arquivo file.txt para simular a restauração do snapshot
+
+![exclusão](images/9.PNG)
+
+
+---
+
+### Processo de restauração do arquivo
+
+![]
 
 
