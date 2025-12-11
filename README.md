@@ -126,7 +126,6 @@ Foi realizado a exclusão do arquivo file.txt para simular a restauração do sn
 
 ![exclusão](images/9.PNG)
 
-
 ---
 
 ### ♻️ Processo de restauração do arquivo
