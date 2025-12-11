@@ -131,8 +131,52 @@ Foi realizado a exclusão do arquivo file.txt para simular a restauração do sn
 
 ---
 
-### Processo de restauração do arquivo
+### ♻️ Processo de restauração do arquivo
 
-![]
+Foi selecionado o snapshot criado **My Volume** e, no menu de ações, escolhida a opção **"Criar volume com snapshot"**.
+
+![Seleção do snapshot](images/10.png)
+
+---
+
+Durante a criação do novo volume, foi atribuída a seguinte tag:
+
+- **Name:** `Restored Volume`
+
+![Criação do snapshot](images/10.1.PNG)
+
+---
+
+Após a criação, o snapshot foi selecionado novamente e, no menu de ações, escolhida a opção **"Associar volume"**.
+
+![Associação de volume](images/10.2.png)
+
+---
+
+O volume foi associado à instância **Lab** com as seguintes definições:
+
+- **Instância:** `Lab`  
+- **Nome do dispositivo:** `/dev/sdg`
+
+![Associação de volume](images/10.3.png)
 
 
+--- 
+
+### 💾 Criação de disco restaurado
+
+Foram executados os seguintes comandos para montar o volume restaurado e verificar os dados:
+
+- **Criar diretório de montagem:**  
+  `sudo mkdir /mnt/data-store2`  
+  Cria o diretório onde o volume restaurado será montado.
+
+- **Montar o volume:**  
+  `sudo mount /dev/sdg /mnt/data-store2`  
+  Monta o volume restaurado no diretório criado.
+
+- **Verificar o conteúdo do volume:**  
+  `ls /mnt/data-store2`  
+  Confirma que o snapshot funcionou e os arquivos foram restaurados corretamente.
+
+![Associação de volume](images/11.png)
