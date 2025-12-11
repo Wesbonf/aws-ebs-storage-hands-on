@@ -132,7 +132,7 @@ Foi realizado a exclusão do arquivo file.txt para simular a restauração do sn
 
 Foi selecionado o snapshot criado **My Volume** e, no menu de ações, escolhida a opção **"Criar volume com snapshot"**.
 
-![Seleção do snapshot](images/10.PNG)
+![Seleção do snapshot](images/15.PNG)
 
 ---
 
